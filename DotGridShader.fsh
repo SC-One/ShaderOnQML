@@ -8,6 +8,7 @@ uniform vec2 u_Resolution;
 //uniform float qt_Timestamp;
 uniform lowp float iGlobalTime;
 const int distance = 20;  //px
+const int squareSize = 2;  //px
 void main(){
     vec2 st = gl_FragCoord.xy;
     vec3 color = vec3(0.0);
@@ -15,7 +16,7 @@ void main(){
     xTime = iGlobalTime * 4;
 
     float pct = 0.0;
-    if(!(int(st.x) % distance == 0 || int(st.y) % distance == 0 ))
+    if(!(int(st.x) % distance <= squareSize && int(st.y) % distance <= squareSize ))
     {
         discard;
         return;

@@ -25,7 +25,7 @@ Rectangle {
             }
         }
 
-        fragmentShader: "qrc:/BackgroundGradient.fsh"
+        fragmentShader: "qrc:/BlinkingShader.fsh"
     }
 
 
