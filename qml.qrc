@@ -3,6 +3,7 @@
         <file>main.qml</file>
         <file>DragComponent.qml</file>
         <file>FloatComponent.qml</file>
-        <file>BackgroundGradient.fsh</file>
+        <file>BlinkingShader.fsh</file>
+        <file>GridShader.fsh</file>
     </qresource>
 </RCC>

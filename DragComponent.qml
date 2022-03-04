@@ -1,7 +1,6 @@
 import QtQuick 2.0
 
 Rectangle {
-    color:"red"
     id:root
     property int floatCompNum: 10;
     property real defWidth: 100;
