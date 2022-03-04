@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DragComponent.qml</file>
+        <file>FloatComponent.qml</file>
+        <file>BackgroundGradient.fsh</file>
+    </qresource>
+</RCC>
